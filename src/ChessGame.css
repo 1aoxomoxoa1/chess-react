@@ -1,0 +1,19 @@
+.chessBoard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin: 20px auto;
+
+    /* setting height here does nothing because it is flex container */
+}
+
+.chessBoard > * {
+    border: 1px solid black;
+    flex-basis: calc(100% / 8);
+    box-sizing: border-box;
+    height: calc(44vw / 8);
+}
+
+.chess-header{
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+/* CSS for the squares */ 
+.white-square{
+    background-color: #f9f9f9;
+}
+
+.black-square{
+    background-color: #232b2b;
+    color: white;
+}
+
+.green-square{ 
+    background-color: lightgreen;
+}
+
+/* .square{
+    display: flex;
+    justify-content: center;
+} */
+
+/* CSS for the pieces */ 
+.piece-img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.testing{
+ 
+    height: calc(48vw / 8) ;
+}
+
+
+
+/* .piece-empty-sqaure{
+    height: 100%;
+    width: 100%;
+} */

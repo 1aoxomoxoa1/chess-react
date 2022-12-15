@@ -1,0 +1,33 @@
+.page-background{
+    background-image: url('../public/images/chess.jpg');
+    
+    height: 100vh;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+.login-form{
+    border: 1px solid white;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding: 10px;
+}
+
+.login-form > *{
+    margin-right: 10px;
+}
+
+#label{
+    color: white;
+}
+
+#username{
+    width: 20vw;
+}
